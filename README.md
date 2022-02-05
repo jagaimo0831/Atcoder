@@ -1,8 +1,33 @@
+# マークダウンファイルについて
+- vscodeでのプレビュー
+    - [Ctrl] + [K] → [V]
+- 参考サイト：https://catalpa.oss.onl/markdown.html
+
+# とりあえず
+- 茶色になるまで：AからCを1時間で（21:00~22:00）
+- 答え合わせ：C言語，C++，C#，Python
+- 内定者課題：ABC100からのABCD問題
+
 # 参考にする人
 - ygussany
 - pengin
 
 # C言語
+- 定型
+    
+        #include<stdio.h>
+        int main(void){ 
+            hoge;
+            fuga;
+            
+            fflush(stdout);
+            return 0;
+        }
+
+- コンパイル
+    - gcc -o main.exe main.c
+    - gcc -o main.exe main.c -lm
+
 - 配列の宣言
     - データ型名 配列名[要素数];
         - int int_arr[5];
