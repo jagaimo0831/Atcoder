@@ -1,16 +1,28 @@
-# マークダウンファイルについて
-- vscodeでのプレビュー
-    - [Ctrl] + [K] → [V]
-- 参考サイト：https://catalpa.oss.onl/markdown.html
-
 # とりあえず
 - 茶色になるまで：AからCを1時間で（21:00~22:00）
 - 答え合わせ：C言語，C++，C#，Python
 - 内定者課題：ABC100からのABCD問題
 
-# 参考にする人
+
+# 答え合わせ
+## やり方
+- 正解不正解問わずとりあえず全部理解しながらトレースする
+- メイン言語以外は軽めにトレース
+
+## 参考にする人
 - ygussany
 - pengin
+
+## テストケース
+- 保管庫：https://www.dropbox.com/sh/nx3tnilzqz7df8a/AAAYlTq2tiEHl5hsESw6-yfLa?dl=0
+
+
+# その他
+## マークダウンファイルについて
+- vscodeでのプレビュー
+    - [Ctrl] + [K] → [V]
+- 参考サイト：https://catalpa.oss.onl/markdown.html
+
 
 # C言語
 - 定型
