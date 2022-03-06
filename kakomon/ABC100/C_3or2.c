@@ -2,11 +2,11 @@
 int main (void) {
     // input 
     int N; 
-    int a[10001];
-    int i;
     scanf("%d", &N);
-    for(i=0; i<N; i++){
-        scanf("%d ", &a[i]);
+
+    int a[N];
+    for(int i=0; i<N; i++){
+        scanf("%d", &a[i]);
     }
 
     // processing & output
@@ -14,11 +14,12 @@ int main (void) {
     int j;
     for(j=0; j<N; j++){
         while(a[j] % 2 == 0){
+            a[j] = a[j] / 2;    //ここの記述が無いからずっと無限ループになっていた...ゴミが
             ans += 1;
         }
     }
 
-    printf("%d", ans);
+    printf("%d\n", ans);
 
     fflush(stdout);
     return 0;
